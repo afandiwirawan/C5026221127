@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500;600;700&family=Inter:wght@300;500;600;700&display=swap);
+
+body{
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    min-height: 100dvh;
+    font-family: DM Sans;
+    background-image: url(https://ugc.production.linktr.ee/iVaMAGAkTuqmAFGul0TJ_YKLZ9U3C930Cu3w1?io=true&size=background-profile-v1);
+    background-attachment: fixed;
+    min-width: 576px;
+    background-size: 1100px;
+}
+.afandi-jarak-atas{
+    display: grid;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    border-radius: 72px;
+    border: 1px solid transparent;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+.afandi-navigation-bar{
+    display: flex;
+    position: absolute;
+    top: 26px;
+    right: 362px;
+    background-color: gainsboro;
+    border-color: gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.afandi-navigation-bar::before{
+    content: '...';
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+.afandi-navigation-bar:hover{
+    background:slategray;
+    color: black;
+    border: #D2D2D2;
+}
+.afandi-center-button{
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
+.afandi-profile-picture{
+    border-radius: 50%;
+    width:96px;
+    height:96px;
+    margin-bottom : 16px;
+}
+.afandi-profile-title{
+    color: rgb(75, 85, 230);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 4px;
+    max-width: 100%;
+}
+.afandi-batas-kanan-kiri-teks{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 4px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.afandi-profile-description{
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(75, 85, 230);
+    font-weight: 500;
+    line-height: 1.5;
+}
+.afandi-spasi{
+    margin-top: 32px;
+}
+.afandi-border-foto{
+    display: block;
+    border: 2px solid rgb(75, 85, 230);
+    color: rgb(75, 85, 230);
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 670px;
+    height: 25px;
+    max-width: 690px;
+    transition: cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    transition-duration: 0.25s, 0.25s, 0.25s, 0.25s, 0.25s;
+}
+.afandi-batas-teks{
+    hyphens: auto;
+    white-space: normal;
+    background: none;
+    color: inherit;
+    transition: cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding-left: 44px;
+    padding-right: 44px;;
+}
+a.afandi-border-foto:hover{
+    display: block;
+    border: 2px solid rgb(75, 85, 230);
+    color: white;
+    text-decoration: none;
+    background-color: rgb(75, 85, 230);
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 15px 0px 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 670px;
+    height: 25px;
+    transition: cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    transition-duration: 0.25s, 0.25s, 0.25s, 0.25s, 0.25s;
+}
