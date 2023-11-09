@@ -26,6 +26,10 @@ Route::get('halo2', function () {
     return "<h1>Halo Apa kabar</h1>" ;
 });
 
+Route::get('blog', function () {
+    return view('blog') ;
+});
+
 Route::get('tugas1', function () {
     return view('tugas1') ;
 });
