@@ -11,7 +11,7 @@
     <p>Cari Data Pegawai :</p>
     <form action="/pegawai/cari" method="GET">
         <input class="form-control" type="text" name="cari" placeholder="Cari Nama Pegawai .."
-        value="{{ old("cari", isset($cari) ? $cari : '') }}">
+        value="{{ old("cari", isset($cari) ? $cari : '') }}"><br/>
         <input type="submit" value="CARI" class="btn btn-info">
     </form>
     <br />
@@ -31,6 +31,8 @@
                 <td>{{ $p->pegawai_umur }}</td>
                 <td>{{ $p->pegawai_alamat }}</td>
                 <td>
+                    <a href="/pegawai/view/{{ $p->pegawai_id }}" class="btn btn-success">View</a>
+                    |
                     <a href="/pegawai/edit/{{ $p->pegawai_id }}" class="btn btn-warning">Edit</a>
                     |
                     <a href="/pegawai/hapus/{{ $p->pegawai_id }}" class="btn btn-danger">Hapus</a>
