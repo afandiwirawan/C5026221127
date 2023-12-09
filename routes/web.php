@@ -98,3 +98,16 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
+
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@index');
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiKuliahController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
+
+Route::get('/unggas','App\Http\Controllers\UnggasController@index');
+Route::get('/unggas/tambah','App\Http\Controllers\UnggasController@tambah');
+Route::post('/unggas/store','App\Http\Controllers\UnggasController@store');
+Route::get('/unggas/edit/{kodeunggas}','App\Http\Controllers\UnggasController@edit');
+Route::post('/unggas/update','App\Http\Controllers\UnggasController@update');
+Route::get('/unggas/hapus/{kodeunggas}','App\Http\Controllers\UnggasController@hapus');
+Route::get('/unggas/view/{kodeunggas}','App\Http\Controllers\UnggasController@view');
+Route::get('/unggas/cari','App\Http\Controllers\UnggasController@cari');
