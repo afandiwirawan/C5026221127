@@ -32,7 +32,7 @@
                     </div>
                     <div class = "form-group row">
                         <input class="col-1" required="required" type = "checkbox" id = "tersedia"  name="tersedia" {{ $u->tersedia == 'y' ? 'checked' : '' }}>
-                        <label for = "tersedia" class = "control-label">Ketersedian barang</label>
+                        <label for = "tersedia" class = "control-label">Ketersedian unggas</label>
                     </div>
                 </form>
             </fieldset>

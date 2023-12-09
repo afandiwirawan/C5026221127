@@ -4,7 +4,7 @@
 @section('konten')
     <h3>Data Unggas</h3>
 
-    <a href="/unggas/tambah" class="btn btn-primary"> + Tambah Data</a>
+    <a href="/unggas/tambah" class="btn btn-primary"> + Tambah Data Unggas</a>
     <br/>
     <br/>
 
