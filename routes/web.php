@@ -111,3 +111,8 @@ Route::post('/unggas/update','App\Http\Controllers\UnggasController@update');
 Route::get('/unggas/hapus/{kodeunggas}','App\Http\Controllers\UnggasController@hapus');
 Route::get('/unggas/view/{kodeunggas}','App\Http\Controllers\UnggasController@view');
 Route::get('/unggas/cari','App\Http\Controllers\UnggasController@cari');
+
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index');
+Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
+Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
