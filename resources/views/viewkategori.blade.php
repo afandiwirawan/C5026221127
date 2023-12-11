@@ -1,9 +1,12 @@
 @extends('master5')
-@section('judulhalaman', 'Hasil Kategori')
+@section('judulHalaman', 'Lihat kategori')
+
 
 @section('konten')
-@foreach ($kategori as $k)
-    Anda telah memilih kategori dengan kode: {{$k -> ID}}
+@foreach($kategori as $k)
+    <h2>Anda telah memilih Kategori dengan kode: {{$k->ID}}</h2>
+
+    <a href="/kategori" class="btn btn-success"> Kembali</a>
 @endforeach
 
 @endsection

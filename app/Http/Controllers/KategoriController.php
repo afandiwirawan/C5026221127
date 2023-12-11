@@ -14,9 +14,9 @@ class KategoriController extends Controller{
 	}
 
     public function view(Request $request)
-	{
-		$kategori = DB::table('kategori')->where('ID',$request->pemilihankategori)->get();
+    {
+        $kategori = DB::table('kategori')->where('id',$request->pilihKategori)->get();
 		return view('viewkategori',['kategori' => $kategori]);
-	}
+    }
 
 }

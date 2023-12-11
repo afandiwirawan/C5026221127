@@ -118,4 +118,4 @@ Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
 
 Route::get('/kategori','App\Http\Controllers\kategoriController@index');
-Route::post('/kategori/view','App\Http\Controllers\kategoriController@viewkategori');
+Route::post('/kategori/view','App\Http\Controllers\kategoriController@view');
